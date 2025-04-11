@@ -1,0 +1,6 @@
+.section .cookie {
+}
+
+.highlight__cookie {
+  color: var(--yellow);
+}

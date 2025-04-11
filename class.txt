@@ -1,0 +1,53 @@
+> dicionário de classes
+-> container
+     - container
+-> menu
+          - container__menu
+               - menu__icon
+                    - icon__potato
+                    - icon__cookie
+               - menu__logo
+               - menu__detail
+                    - detail__minimize
+                    - detail__close
+-> section
+     - section potato
+          - section__header
+               - header__frame
+               - header__text
+          - section__date
+               - date__days
+                    - daysJune
+                    - days__text
+               - date__hours
+                    - hoursJune
+                    - hours__text
+               - date__minutes
+                    - minutesJune
+                    - minutes__text
+               - date__seconds
+                    - secondsJune
+                    - seconds__text
+          - section__footer
+               - highlight potato
+     - section cookie
+          - section__header
+               - header__frame
+               - header__text
+          - section__date
+               - date__days
+                    - daysJune
+                    - days__text
+               - date__hours
+                    - hoursJune
+                    - hours__text
+               - date__minutes
+                    - minutesJune
+                    - minutes__text
+               - date__seconds
+                    - secondsJune
+                     - seconds__text
+          - section__footer
+               - highlight cookie
+     - container__cat
+          -  cat

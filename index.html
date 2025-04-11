@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <title>PixelBoom</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container__menu">
+        <div class="menu__icon">
+          <img
+            style="image-rendering: pixelated"
+            class="icon__potato"
+            onclick="showSection('potato')"
+            src="assets/MenuPotato.svg"
+          />
+          <img
+            style="image-rendering: pixelated"
+            class="icon__cookie"
+            onclick="showSection('cookie')"
+            src="assets/MenuCookie.svg"
+          />
+        </div>
+        <div class="menu__logo">
+          <img src="assets/PixelBoom.svg" alt="" />
+        </div>
+        <div class="menu__detail">
+          <img class="detail__minimize" src="assets/MenuDetail.svg" alt="" />
+          <img class="detail__close" src="assets/MenuDetail2.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="section potato active">
+        <div class="section__header">
+          <div class="header__frame">
+            <img src="assets/Potato.svg" alt="" />
+          </div>
+          <p class="header__text">
+            Rotas traçadas... <br />
+            <mark class="highlight__potato">Batato</mark> a caminho!
+          </p>
+        </div>
+        <div class="section__date">
+          <div class="date__days">
+            <p id="daysJune">00</p>
+            <span class="days__text">D</span>
+          </div>
+          <div class="date__hours">
+            <p id="hoursJune">00</p>
+            <span class="hours__text">H</span>
+          </div>
+          <div class="date__minutes">
+            <p id="minutesJune">00</p>
+            <span class="minutes__text">M</span>
+          </div>
+          <div class="date__seconds">
+            <p id="secondsJune">00</p>
+            <span class="seconds__text">S</span>
+          </div>
+        </div>
+        <p class="section__footer">
+          Até <mark class="highlight__potato">Batato</mark> pousar
+        </p>
+      </div>
+
+      <div class="section cookie">
+        <div class="section__header">
+          <div class="header__frame">
+            <img src="assets/Cookie.svg" alt="" />
+          </div>
+          <p class="header__text">
+            Rotas traçadas... <br /><mark class="highlight__cookie">Orion</mark>
+            a caminho!
+          </p>
+        </div>
+        <div class="section__date">
+          <div class="date__days">
+            <p id="daysJuly">00</p>
+            <span class="days__text">D</span>
+          </div>
+          <div class="date__hours">
+            <p id="hoursJuly">00</p>
+            <span class="hours__text">H</span>
+          </div>
+          <div class="date__minutes">
+            <p id="minutesJuly">00</p>
+            <span class="minutes__text">M</span>
+          </div>
+          <div class="date__seconds">
+            <p id="secondsJuly">00</p>
+            <span class="seconds__text">S</span>
+          </div>
+        </div>
+        <p class="section__footer">
+          Até <mark class="highlight__cookie">Orion</mark> pousar
+        </p>
+      </div>
+    </div>
+
+    <div class="container__cat">
+      <img class="cat" src="assets/Qoo.svg" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

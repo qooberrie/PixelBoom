@@ -1,0 +1,4 @@
+.menu__cookie:hover,
+.menu__cookie:focus {
+  background-image: url("assets/MenuCookieHover.svg");
+}
