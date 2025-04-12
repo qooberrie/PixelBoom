@@ -1,4 +1,25 @@
-.menu__cookie:hover,
-.menu__cookie:focus {
-  background-image: url("assets/MenuCookieHover.svg");
+.date__days:hover {
+  background-color: var(--pink);
+  transition: 0.2s;
+}
+.date__hours:hover {
+  background-color: var(--pink);
+  transition: 0.2s;
+}
+.date__minutes:hover {
+  background-color: var(--pink);
+  transition: 0.2s;
+}
+.date__seconds:hover {
+  background-color: var(--pink);
+  transition: 0.2s;
+}
+
+.detail__minimize:hover {
+  background-color: var(--pink);
+  transition: 0.2s;
+}
+.detail__close:hover {
+  background-color: var(--yellow);
+  transition: 0.2s;
 }
