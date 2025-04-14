@@ -48,10 +48,6 @@
   max-width: 90%;
 }
 
-.frame__potato,
-.frame__cookie {
-}
-
 .section__date {
   display: grid;
   grid-template-columns: 1fr 1fr;

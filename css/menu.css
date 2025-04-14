@@ -10,10 +10,7 @@
 .menu__icon {
   display: flex;
   padding: 1rem;
-}
-
-.icon__potato {
-  padding: 0rem 0.5rem;
+  gap: 0.5rem;
 }
 
 .menu__logo {

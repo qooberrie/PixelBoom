@@ -1,8 +1,11 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .container {
-    margin-top: 2rem;
-    width: 0.2rem;
-    margin: 2rem 2rem auto 2rem;
+    width: 0.5rem;
+    margin-top: 20px;
+  }
+
+  .section.active {
+    padding: 1rem;
   }
 
   .section__header {
@@ -12,31 +15,120 @@
 
   .section__date {
     grid-template-columns: 1fr;
+    padding: 0rem;
   }
-  .section__date p {
-    width: 20rem;
-    text-align: center;
-  }
+
   .section__footer {
     min-width: 20rem;
   }
 
   .header__text,
-  .section__footer {
-    font-size: 3rem;
+  .section__footer,
+  .section__date p {
+    font-size: 2.5rem;
     text-align: center;
   }
 
-  .container__cat {
-    max-width: 20%;
+  .detail__minimize,
+  .detail__close {
+    width: 1.8rem;
+    height: 1.8rem;
   }
 
-  .detail__minimize {
-    width: 2rem;
-    height: 2rem;
+  .container__cat {
+    display: none;
   }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    width: 90vw;
+  }
+
+  .section.active {
+    padding: 1rem;
+  }
+
+  .section__header {
+    gap: 1rem;
+  }
+
+  .header__text,
+  .section__footer,
+  .section__date p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 10vw;
+  }
+
+  .section.active {
+    padding: 1rem;
+  }
+
+  .section__header {
+    gap: 1rem;
+    min-width: 20rem;
+  }
+
+  .header__text,
+  .section__footer,
+  .section__date p {
+    font-size: 1.5rem;
+  }
+
+  .detail__minimize,
   .detail__close {
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 5vw;
+  }
+
+  .section.active {
+    padding: 0.5rem;
+    max-width: 280px;
+    border-width: 0px 3px 3px 3px;
+  }
+
+  .section__header {
+    gap: 1rem;
+    min-width: 10rem;
+  }
+
+  .section__date {
+    max-width: 200px;
+  }
+
+  .header__text,
+  .section__footer,
+  .section__date p {
+    font-size: 1.5rem;
+  }
+
+  .header__frame {
+    border: 3px solid black;
+  }
+
+  .container__menu {
+    max-width: 280px;
+    border: 3px solid black;
+  }
+
+  .menu__logo {
+    width: 30vw;
+  }
+  .menu__icon {
+    width: 15vw;
+  }
+
+  .detail__close,
+  .detail__minimize {
+    border: 2px solid black;
   }
 }
