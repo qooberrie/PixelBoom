@@ -39,12 +39,4 @@
     width: 2rem;
     height: 2rem;
   }
-
-  .frame__potato,
-  .frame__cookie {
-  }
-
-  * {
-    transition: 0.6s;
-  }
 }
