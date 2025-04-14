@@ -48,12 +48,8 @@
   max-width: 90%;
 }
 
-.frame__potato {
-  max-width: 7rem;
-}
-
+.frame__potato,
 .frame__cookie {
-  max-width: 7rem;
 }
 
 .section__date {
@@ -65,19 +61,14 @@
   margin: 1rem;
 
   width: 100%;
-  justify-content: center;
-  align-content: center;
-  align-self: center;
-  align-items: center;
-
   font-size: 3rem;
 }
+
 .date__days,
 .date__hours,
 .date__minutes,
 .date__seconds {
   background-color: var(--yellow);
-  padding: 10px 60px;
   align-self: center;
   justify-items: center;
 }

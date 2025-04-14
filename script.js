@@ -38,11 +38,10 @@ var y = setInterval(function () {
 }, 1000);
 
 function showSection(section) {
-  const sections = document.querySelectorAll(".section");
-  sections.forEach((el) => el.classList.remove("active"));
-
-  const activeSection = document.querySelector(`.section.${section}`);
-  if (activeSection) {
-    activeSection.classList.add("active");
-  }
+  document
+    .querySelectorAll(".section")
+    .forEach((sec) => sec.classList.remove("active"));
+  document
+    .querySelectorAll(`.${section}`)
+    .forEach((sec) => sec.classList.add("active"));
 }

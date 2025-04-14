@@ -1,13 +1,50 @@
-@media screen and (max-width: 500px) {
-  .header__text {
-    font-size: 1.5rem;
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 2rem;
+    width: 0.2rem;
+    margin: 2rem 2rem auto 2rem;
   }
 
+  .section__header {
+    flex-direction: column;
+    min-width: 20rem;
+  }
+
+  .section__date {
+    grid-template-columns: 1fr;
+  }
+  .section__date p {
+    width: 20rem;
+    text-align: center;
+  }
   .section__footer {
-    font-size: 1.5rem;
+    min-width: 20rem;
   }
 
-  .menu__logo img {
+  .header__text,
+  .section__footer {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .container__cat {
+    max-width: 20%;
+  }
+
+  .detail__minimize {
+    width: 2rem;
     height: 2rem;
+  }
+  .detail__close {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .frame__potato,
+  .frame__cookie {
+  }
+
+  * {
+    transition: 0.6s;
   }
 }
