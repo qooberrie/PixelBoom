@@ -26,12 +26,23 @@ a {
   text-decoration: none;
   color: black;
 }
-img {
+img,
+video,
+iframe {
   max-width: 100%;
+  height: auto;
+
   display: block;
+
+  image-rendering: pixelated;
 }
 
-mark{
+* {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+mark {
   background-color: transparent;
   color: black;
 }

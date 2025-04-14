@@ -5,48 +5,41 @@
 
   border: 4px solid black;
   background: white;
-
-  margin: 0px 50px;
 }
 
 .menu__icon {
   display: flex;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .icon__potato {
-  padding: 0px 5px;
-}
-.icon__cookie {
-  padding: 0px 5px;
+  padding: 0rem 0.5rem;
 }
 
 .menu__logo {
   align-self: center;
-  padding: 0px 60px;
 }
 
 .menu__detail {
   display: flex;
   align-items: center;
-  padding: 10px;
 }
 
 .detail__minimize {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 
-  padding: 10px;
+  padding: 0.5rem;
   background-color: rgba(251, 133, 168, 0.596);
 
   border: 3px solid black;
 }
 .detail__close {
-  width: 40px;
-  height: 40px;
-  padding: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
   background-color: var(--pink);
 
   border: 3px solid black;
-  margin: 0px 10px;
+  margin: 0rem 1rem 0rem 0.5rem;
 }

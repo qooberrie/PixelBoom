@@ -4,16 +4,14 @@
 @import url("container.css");
 @import url("menu.css");
 @import url("section.css");
-@import url("potato.css");
-@import url("cookie.css");
 /* hover */
-@import url('hover.css');
+@import url("hover.css");
 /* mobile */
-@import url('mobile.css');
+@import url("mobile.css");
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Jersey+25&display=swap");
 /* color palette */
 :root {
-  --pink: #FB85A8;
-  --yellow: #FAC551;
+  --pink: #fb85a8;
+  --yellow: #fac551;
 }

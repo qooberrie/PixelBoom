@@ -1,3 +1,13 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
+  .header__text {
+    font-size: 1.5rem;
+  }
 
+  .section__footer {
+    font-size: 1.5rem;
+  }
+
+  .menu__logo img {
+    height: 2rem;
+  }
 }

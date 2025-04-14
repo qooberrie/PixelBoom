@@ -13,7 +13,6 @@
   border-width: 0px 4px 4px 4px;
 
   padding: 60px 20px;
-  margin: 0px 50px;
 
   justify-content: center;
   align-items: center;
@@ -45,26 +44,27 @@
 }
 
 .header__text {
-  font-size: 4rem;
-  max-width: 450px;
+  font-size: 3.5rem;
+  max-width: 90%;
 }
 
 .frame__potato {
-  max-width: 90px;
+  max-width: 7rem;
 }
 
 .frame__cookie {
-  max-width: 90px;
+  max-width: 7rem;
 }
 
 .section__date {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 
-  padding: 40px 10px;
-  margin: 10px;
+  padding: 2rem 0.2rem;
+  margin: 1rem;
 
-  width: 600px;
+  width: 100%;
   justify-content: center;
   align-content: center;
   align-self: center;
@@ -72,41 +72,23 @@
 
   font-size: 3rem;
 }
-.date__days {
-  background-color: var(--yellow);
-  padding: 10px 60px;
-
-  align-self: center;
-  justify-items: center;
-}
-
-.date__hours {
-  margin: 0px 0px 0px 20px;
-  background-color: var(--yellow);
-  padding: 10px 60px;
-
-  align-self: center;
-  justify-items: center;
-}
-
-.date__minutes {
-  margin: 20px 0px 0px 0px;
-  background-color: var(--yellow);
-  padding: 10px 60px;
-
-  align-self: center;
-  justify-items: center;
-}
-
+.date__days,
+.date__hours,
+.date__minutes,
 .date__seconds {
-  margin: 20px 0px 0px 20px;
   background-color: var(--yellow);
   padding: 10px 60px;
-
   align-self: center;
   justify-items: center;
 }
 
 .section__footer {
   font-size: 4rem;
+}
+
+.highlight__potato {
+  color: var(--pink);
+}
+.highlight__cookie {
+  color: var(--yellow);
 }

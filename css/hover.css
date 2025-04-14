@@ -1,25 +1,7 @@
-.date__days:hover {
-  background-color: var(--pink);
-  transition: 0.2s;
-}
-.date__hours:hover {
-  background-color: var(--pink);
-  transition: 0.2s;
-}
-.date__minutes:hover {
-  background-color: var(--pink);
-  transition: 0.2s;
-}
+.date__days:hover,
+.date__hours:hover,
+.date__minutes:hover,
 .date__seconds:hover {
   background-color: var(--pink);
-  transition: 0.2s;
-}
-
-.detail__minimize:hover {
-  background-color: var(--pink);
-  transition: 0.2s;
-}
-.detail__close:hover {
-  background-color: var(--yellow);
-  transition: 0.2s;
+  transition: background-color 0.2s;
 }
